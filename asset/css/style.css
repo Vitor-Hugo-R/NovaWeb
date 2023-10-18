@@ -1,59 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Merriweather Sans', sans-serif;
 }
-header{
-    min-height: 600px;
+
+body {
     background-image: url(../../assets/img/halloween-72939_1920.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+}
+
+
+header {
+    background: rgb(5, 5, 5);
+    background: linear-gradient(180deg, rgba(5,5,5,1) 60%, rgba(255,255,255,0.00043767507002800965) 100%);
     position: relative;
+    z-index: 1;
+
 }
-.bg-gradiente{
-    min-height: 500px;
-    background: #0000;
-}
-.hearder-border{
+
+
+.hearder-border {
     display: flex;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    justify-content: center;
 }
-#logo{
-  width: 200px;
-  background-color: rgba(235, 239, 240, 0.74);
-  }
-#logo img{
+
+#logo {
+    width: 100px;
+
+}
+
+#logo img {
     width: 100%;
 }
 
-.menu{
+.menu {
     flex: 1;
 }
+
 .menu ul {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     list-style: none;
     padding: 0;
 }
-.menu ul li{
-    min-width: 100px;
-    line-height: 28px;
+
+.menu ul li {
+    text-align: center;
+    width: 300px;
+
 }
-.menu ul li a{
+
+.menu ul li a {
     color: aliceblue;
     text-decoration: none;
     font-weight: 600;
     padding: 20px;
 }
+
 .container {
     max-width: 960px;
     margin: auto;
     padding-left: 15px;
     padding-right: 15px;
 }
+
 #title h1 {
     font-size: 3em;
     border-bottom: 2px #ccc solid;
@@ -61,42 +77,21 @@ header{
     padding-bottom: 1rem;
     margin-top: 30px;
 }
+
 .home p {
     text-align: justify;
     margin-top: 30px;
 }
-#sobre,
-#contact,
-.inputs,
-.contact-container {
+
+#sobre {
     text-align: center;
     margin-top: 30px;
 }
-.contact-container input,
-.contact-container textarea {
-    width: 220px;
-    padding: 10px 20px;
-    font-size: 1em;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 20px;
-}
-.contact-container textarea {
-    display: block;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    width: 468px;
-    height: 150px;
-}
-.contact-container p {
-    text-align: center;
-}
+
 footer {
+    margin-top: 10px;
+    text-align: center;
     color: #5f5e5e;
-    background-color: #ffffffff;
     font-size: .8em;
 }
 

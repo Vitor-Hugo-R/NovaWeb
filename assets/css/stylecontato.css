@@ -1,0 +1,43 @@
+.volta a{
+border-radius: 5px;   
+border: 1px solid black;
+font-size: 1.5em;
+text-decoration: none;
+color: black;
+}
+#contact,
+.inputs,
+.contact-container {    
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact-container input,
+.contact-container textarea {
+    width: 220px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-container textarea {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 430px;
+    height: 150px;
+}
+
+.contact-container p {
+    text-align: center;
+}
+@media screen and (max-width: 512px) {
+    .contact-container textarea {
+        width: auto;
+    }
+}
