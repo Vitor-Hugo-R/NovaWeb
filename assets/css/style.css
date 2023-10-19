@@ -7,21 +7,20 @@
     font-family: 'Merriweather Sans', sans-serif;
 }
 
-body {
+html {    
     background-image: url(../../assets/img/halloween-72939_1920.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
-
-
+body{
+    background: linear-gradient(180deg, rgba(0,0,0,0.30015756302521013) 100%, rgba(0,0,0,0.33657212885154064) 100%);
+}
 header {
-    background: rgb(5, 5, 5);
-    background: linear-gradient(180deg, rgba(5,5,5,1) 60%, rgba(255,255,255,0.00043767507002800965) 100%);
+
     position: relative;
     z-index: 1;
-
 }
 
 
@@ -39,7 +38,7 @@ header {
     width: 100%;
 }
 
-.menu {
+.menu {   
     flex: 1;
 }
 
@@ -60,7 +59,7 @@ header {
     color: aliceblue;
     text-decoration: none;
     font-weight: 600;
-    padding: 20px;
+    padding: 0;
 }
 
 .container {
@@ -69,29 +68,31 @@ header {
     padding-left: 15px;
     padding-right: 15px;
 }
-
 #title h1 {
-    font-size: 3em;
-    border-bottom: 2px #ccc solid;
+    font-size: 2em;    
     text-align: center;
     padding-bottom: 1rem;
-    margin-top: 30px;
+    margin-top: 200px;
+    color: aliceblue;
 }
-
+.home{
+    color: aliceblue;
+}
 .home p {
     text-align: justify;
     margin-top: 30px;
+    
 }
 
 #sobre {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 300px;
 }
 
 footer {
-    margin-top: 10px;
+    margin-top: 50px;
     text-align: center;
-    color: #5f5e5e;
+    color: #6e6e6e;
     font-size: .8em;
 }
 

@@ -1,0 +1,12 @@
+html{
+    background-image: url(../img/manutencao.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.volta a{
+    border-radius: 5px;   
+    border: 1px solid black;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+    }
